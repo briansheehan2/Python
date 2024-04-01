@@ -1,0 +1,15 @@
+#Python Tuples
+tplStates=("Alabama","Alaska","California","Iowa","Minnesota")
+print(tplStates)
+print("Lengths of Tuples =",len(tplStates))
+print("Format to access one tuple[x] where x>= 0")
+print("Accessing the first tuple from the left to right")
+print(tplStates[0])
+print("Accessing the first tuple from right to left")
+print(tplStates[-1])
+print("Accessing a range of tuples from left to right")
+print(tplStates[0:2])
+print("\nUsing a for loop to display all items of a tuple\n")
+for index in tplStates:
+    print(index)
+print("Tuples cannot be changed becaause of immutability property")
